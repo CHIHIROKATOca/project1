@@ -139,7 +139,7 @@ nav li{
 
 .scroll-wrap{
     position: absolute;
-    bottom: 11%;
+    bottom: 18%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     margin: auto;
