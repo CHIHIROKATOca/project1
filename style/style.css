@@ -54,11 +54,11 @@ img{
 /*======logo======*/
 .logo2{
     position: absolute;
-    top:8%;
+    top:2%;
     left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    transform:  translateX(-50%);
     position: fixed;
-    width: 35%;
+    width: 45%;
     z-index: 5;
     margin:0 auto;
 }
