@@ -30,6 +30,18 @@ h1, h2, h3, h4, h5, h6, p {
     margin:0;
 }
 
+h1{
+    color: white;
+    font-family: calder-dark-grit,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:20px;
+}
+
 p{
     font-family: sofia-pro-soft,sans-serif;
     font-weight: 200;
@@ -58,7 +70,7 @@ img{
     left: 50%;
     transform:  translateX(-50%);
     position: fixed;
-    width: 45%;
+    width: 35%;
     z-index: 5;
     margin:0 auto;
 }
@@ -88,7 +100,7 @@ header h1 a{
 
 .header-image-wrap{
     position: relative;
-    padding-bottom:50px;
+    padding-bottom:20px;
 }
 
 .header-image_text{
@@ -119,7 +131,7 @@ nav a{
 nav ul{
     margin:10 auto 20px;
     padding:0 30px;
-    line-height: 30px;
+    line-height: 50px;
 }
 
 nav li{
@@ -132,16 +144,6 @@ nav li{
 .btn-menu{
     margin:0 30px;
 }
-
-/* ----nav a---- */
-
-a.concept,a.menu,a.access,a.contact{
-    display: block;
-    padding-top: 150px;
-    margin-top: -70px;
-}
-
-
 
 /* ----------------------------- */
 
@@ -277,11 +279,30 @@ main h3{
     margin-top:20px;
     border:none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+    font-size: 15px;
+}
+
+#btn_arrow{
+    display: inline-block;
+    width: 50px;  
+    padding-left:5px;
+    vertical-align: middle;
 }
 
 
 
 /* -----menu----- */
+
+.menu-photo{
+    position: relative;
+}
+.menu-text{
+    position: absolute;
+    width:50%;
+    bottom: -12%;
+    right: 0;
+}
+
 
 .menu_list{
     display: none;
@@ -398,10 +419,12 @@ label{
 
 input{
     width: 100%;
+    padding:10px;
 }
 
 textarea{
     width: 100%;
+    padding:10px;
 }
 
 fieldset{
@@ -409,7 +432,7 @@ fieldset{
 }
 
 .form ul li .submit{
-    width: 30%;
+    width: 50%;
     text-align: center;
     background-color:#5C5052;
     color: white;
