@@ -154,11 +154,15 @@ section{
 
 main{
     padding:0 20px;
+    color: #5C5052;
+
 }
 
 main h2{
     padding:0;
     margin:0 auto;
+    color: #5C5052;
+
 }
 
 main h3{
