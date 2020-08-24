@@ -65,14 +65,11 @@ img{
 }
 /*======logo======*/
 .logo2{
-    position: absolute;
-    top:2%;
-    left: 50%;
-    transform:  translateX(-50%);
-    position: fixed;
-    width: 45%;
-    z-index: 5;
-    margin:0 auto;
+    
+        width: 20%;
+        z-index: 5;
+        margin:0 auto;
+    
 }
 
 /*======header======*/
