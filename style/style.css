@@ -36,20 +36,16 @@ h1{
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    margin: 0 auto 10px;
+    margin: 0 auto;
     font-size: 1.5em;
     text-align: center;
-    padding-top:80px;
-    text-shadow:1px 1px rgb(198, 198, 39) ;
-    line-height: 1.2em;
-    
+    padding-top:20px;
 }
 
 p{
     font-family: sofia-pro-soft,sans-serif;
     font-weight: 200;
     font-style: normal;
-    text-align: center;
 }
 
 
@@ -68,8 +64,13 @@ img{
     margin:0 auto;
 }
 /*======logo======*/
-.logo_subpage{
-    width: 20%;
+.logo2{
+    position: absolute;
+    top:2%;
+    left: 50%;
+    transform:  translateX(-50%);
+    position: fixed;
+    width: 45%;
     z-index: 5;
     margin:0 auto;
 }
