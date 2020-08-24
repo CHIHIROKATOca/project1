@@ -70,7 +70,7 @@ img{
     left: 50%;
     transform:  translateX(-50%);
     position: fixed;
-    width: 35%;
+    width: 40%;
     z-index: 5;
     margin:0 auto;
 }
