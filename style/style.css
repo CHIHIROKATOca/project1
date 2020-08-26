@@ -65,11 +65,9 @@ img{
 }
 /*======logo======*/
 .logo2{
-    
         width: 20%;
         z-index: 5;
         margin:0 auto;
-    
 }
 
 /*======header======*/
@@ -278,7 +276,7 @@ main h3{
 /* -----concept----- */
 
 .concept h1{
-    padding:0px;
+    padding-top:30px;
 }
 
 .concept button{
@@ -298,11 +296,20 @@ main h3{
     width: 50px;  
     padding-left:5px;
     vertical-align: middle;
+    margin:0;
+}
+
+.concept-bigger{
+    display: none;
 }
 
 
 
 /* -----menu----- */
+
+.menu-photo-bigger{
+    display: none;
+}
 
 .menu-photo{
     position: relative;
@@ -315,7 +322,7 @@ main h3{
 }
 
 
-.menu_list{
+.menu_list_bigger{
     display: none;
 }
 
@@ -359,18 +366,17 @@ main h3{
 }
 
 
-.menu button{
+.mobile_menu_list button{
     text-align: center;
     background-color:#5C5052;
     color: white;
     padding:10px 20px ;
     border-radius: 50px;
-    margin-top:40px;
+    margin-top:30px;
     border:none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
     font-size: 15px;
     font-family: calder-dark-grit,sans-serif;
-
 }
 
 
@@ -473,3 +479,165 @@ footer{
 
 }
 
+/* ====================Tablet=================== */
+
+@media(min-width:768px){
+    
+    /* ====concept==== */
+    
+    .concept-box{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .concept-main{
+        width: 60%;
+    }
+
+    .concept-bigger{
+        display: block;
+        width: 37%;
+        font-size: 12px;
+
+    }
+
+    .concept-bigger img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .concept button{
+        padding:10px 20px;
+        border-radius: 50px;
+        border:none;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+        font-size: 15px;
+
+    }
+
+    .btn-concept-bigger{
+        text-align: center;
+        background-color: white;
+        color: #828282;
+        padding:10px;
+        border-radius: 50px;
+        margin:20px auto;
+        border:none;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+        height: 40px;
+        display: flex;
+    }
+
+    .btn-concept-bigger h3{
+        font-size: 14px;
+        margin:0;
+        padding:0;
+
+    }
+
+
+    .button-area{
+        display: none;
+    }
+
+    /* ====menu==== */
+
+    .menu-photo{
+        display: none;
+    }
+
+    .menu-photo-bigger{
+        display: block;
+        position: relative;
+    }
+
+    .menu-photo-bigger .menu-text{
+        width: 30%;
+        right:3%;
+        bottom: 2%;
+    }
+
+    .mobile_menu_list{
+        display: none;
+    }
+
+
+
+    .menu_list_bigger{
+        display: flex;
+        flex-wrap: wrap;
+        margin:0 auto;
+        justify-content: space-between;
+    }
+
+    .menu_list{
+        text-align: center;
+        background-color: #fffaf6;
+
+    }
+
+    .menu_list img{
+        width: 100%;
+        padding:0;
+        margin:0;
+    }
+
+    article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:20px;
+    }
+
+    /* ---figure--- */
+
+figure{
+    width: 28%;
+    margin:20px auto;
+}
+
+figure img{
+    padding:0;
+}
+
+figcaption{
+    margin:0 auto;
+}
+
+figcaption h2{
+    padding-top:10px;
+    color: #5C5052;
+    font-family: calder-dark-grit,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    text-shadow:1px 1px rgb(198, 198, 39) ;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+figcaption p{
+    font-family: sofia-pro,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+
+.button-area-bigger button{
+    text-align: center;
+    background-color:#5C5052;
+    font-family: calder-dark-grit,sans-serif;
+    color: white;
+    padding:10px 20px ;
+    margin:0 0 50px;
+    border-radius: 50px;
+    border:none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+    font-size: 15px;
+    font-family: calder-dark-grit,sans-serif;
+}
+
+}
