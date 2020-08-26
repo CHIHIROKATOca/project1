@@ -702,9 +702,7 @@ footer{
 @media(min-width:1024px){
     /* ====header==== */
 
-    header{
-        padding:20px;
-    }
+    
 
     header .logo2{
         position: fixed;
@@ -767,6 +765,7 @@ footer{
     }
 
     /* ====concept==== */
+
     .concept-main-bigger{
         display: block;
         width: 68%;
