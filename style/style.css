@@ -90,6 +90,7 @@ header{
     align-items: center;
     width: 100%;
     z-index: 3;
+    padding:10px;
 }
 
 header h1{
