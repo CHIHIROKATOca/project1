@@ -136,7 +136,7 @@ nav a{
 nav ul{
     margin:10 auto 20px;
     padding:0 30px;
-    line-height: 50px;
+    line-height: 65px;
 }
 
 nav li{
@@ -503,6 +503,14 @@ footer{
 
     /* ====header==== */
 
+    header{
+        padding:10px;
+    }
+
+    header .logo2{
+        width: 18%;
+    }
+
     .header-image-tablet{
         display: block;
     }
@@ -693,6 +701,62 @@ footer{
 
 @media(min-width:1024px){
     /* ====header==== */
+
+    header{
+        padding:20px;
+    }
+
+    header .logo2{
+        position: fixed;
+        width: 12%;
+        margin: 30px;
+    }
+
+    .desktop-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .insta-logo{
+        display: none;
+    }
+
+    
+    /* --nav-- */
+    .btn-menu{
+        display: none;
+
+    }
+
+    nav{
+        position: sticky;
+        display: flex;
+        width: 50%;
+        height: 65px;
+    }
+
+    nav ul{
+        display: flex; 
+        margin:0 auto;
+        padding:0;
+        height:65px;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+    nav ul li{
+        height:65px;
+    }
+
+    nav ul li a{
+        padding:0;
+        margin:0 auto;
+    }
+
+
+    
 
     .header-image-tablet{
         display: none;
