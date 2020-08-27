@@ -1,4 +1,4 @@
-![logo-01-readme](https://user-images.githubusercontent.com/64046048/91498158-21d9e580-e874-11ea-8122-bf239b15584a.jpg)
+![logo-01-readme](https://user-images.githubusercontent.com/64046048/91498496-b6444800-e874-11ea-9780-a54022cce751.jpg)
 
 
 # project1-VanDonuts
