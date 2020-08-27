@@ -324,9 +324,9 @@ footer{
 
 }
 
-/* ====================Tablet&Desktop=================== */
+/* ====================Table================== */
 
-@media(min-width:770px){
+@media(min-width:768px){
     /* ====header==== */
 
     header{
@@ -403,24 +403,24 @@ footer{
     }
 
     /* ---new flavor--- */
-.new_menu{
-    display: flex;
-    margin:30px auto;
-    justify-content: space-between;
-    background-color: #fffaf6;
-    padding:15px;
-    width: 60%;
-}
+    .new_menu{
+        display: flex;
+        margin:30px auto;
+        justify-content: space-between;
+        background-color: #fffaf6;
+        padding:15px;
+        width: 60%;
+    }
 
-.new_menu .new_text{
-    width: 60%;
-}
+    .new_menu .new_text{
+        width: 60%;
+    }
 
-.new_menu .new_image{
-    height: 55%;
-    width: auto;
-    margin-right:30px;
-}
+    .new_menu .new_image{
+        height: 55%;
+        width: auto;
+        margin-right:30px;
+    }
 
 
      /* ---figure--- */
@@ -436,4 +436,62 @@ footer{
      }
 
      
+}
+
+
+@media(min-width:1024px){
+    /* ====header==== */
+
+    
+
+    header .logo_subpage{
+        position: fixed;
+        width: 10%;
+        margin: 30px;
+    }
+
+    .desktop-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .insta-logo{
+        display: none;
+    }
+
+    
+    /* --nav-- */
+    .btn-menu{
+        display: none;
+
+    }
+
+    nav{
+        position: sticky;
+        display: flex;
+        width: 50%;
+        height: 50px;
+    }
+
+    nav ul{
+        display: flex; 
+        margin:0 auto;
+        padding:0;
+        height:50px;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+    nav ul li{
+        font-size:14px;
+    }
+
+    nav ul li a{
+        padding:0;
+        margin:0 auto;
+    }
+
+   
 }
