@@ -807,6 +807,10 @@ footer{
         display: none;
     }
 
+    .concept-main-bigger img{
+        margin:0 auto;
+    }
+
     /* ====menu==== */
 
     .tablet_menu_list{
