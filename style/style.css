@@ -115,7 +115,7 @@ header h1 a{
 }
 
 .insta-logo img{
-    height: 65px;
+    height: 50px;
 }
 
 /*======nav======*/
@@ -137,7 +137,7 @@ nav a{
 nav ul{
     margin:10 auto 20px;
     padding:0 30px;
-    line-height: 65px;
+    line-height: 50px;
 }
 
 nav li{
@@ -707,7 +707,7 @@ footer{
 
     header .logo2{
         position: fixed;
-        width: 12%;
+        width: 10%;
         margin: 30px;
     }
 
@@ -732,21 +732,22 @@ footer{
         position: sticky;
         display: flex;
         width: 50%;
-        height: 65px;
+        height: 50px;
     }
 
     nav ul{
         display: flex; 
         margin:0 auto;
         padding:0;
-        height:65px;
+        height:50px;
         width: 100%;
         justify-content: space-around;
 
     }
 
     nav ul li{
-        height:65px;
+        height:50px;
+        font-size: 14px;
     }
 
     nav ul li a{
@@ -811,14 +812,18 @@ footer{
 
      .contact_desktop{
          display: flex;
-         margin:0 auto;
+         margin:0 50px;
          justify-content: space-between;
      }
 
      .contact_desktop p{
         margin:10px 0 20px;
-        text-align: center;
+        text-align: left;
         color: #5C5052;
+    }
+
+    .contact_desktop h1{
+        text-align: left;
     }
     .contact_desktop ul{
         list-style: none;
@@ -831,6 +836,17 @@ footer{
     .form_desktop{
         width: 60%;
     }
+
+    .iconset{
+        display: flex;
+    }
+
+    .iconset img{
+        width: 70%;
+        padding:0;
+        margin:0;
+    }
+
 
     .text_desktop{
         width: 40%;
