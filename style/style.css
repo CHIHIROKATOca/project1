@@ -2,7 +2,7 @@
 
 html{
     box-sizing: border-box;
-    max-width: 1440px;
+    max-width: 1920px;
 }
 
 *,*:before,*:after{
@@ -76,7 +76,7 @@ p{
 .wrapper{
     position: relative;
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1920px;
     background-color: #E9D7C9;
 
 }
