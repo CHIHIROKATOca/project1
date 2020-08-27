@@ -187,6 +187,7 @@ main h3{
 article{
     display: flex;
     flex-wrap: wrap;
+    
 }
 /* ---new flavor--- */
 .new_menu{
@@ -290,10 +291,6 @@ figcaption{
 }
 
 
-
-
-
-
 /* -----menu----- */
 
 .menu-photo{
@@ -305,67 +302,6 @@ figcaption{
     bottom: -12%;
     right: 0;
 }
-
-
-.menu_list{
-    display: none;
-}
-
-.mobile_menu_list{
-    background-color: #fffaf6;
-    padding:20px 20px 40px;
-}
-
-.mobile_menu_list li{
-    list-style: circle;
-}
-
-.mobile_menu_list li h2{
-    font-family: calder-dark-grit,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    text-shadow:1px 1px yellow ;
-    
-}
-
-.mobile_menu_list ul li p{
-    font-family: sofia-pro,sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    text-align: left;
-    line-height: 1em;
-    margin-bottom:20px;
-    
-}
-
-.mobile_menu_list p{
-    text-align: center;
-    color:#888386;
-    
-}
-
-.button-area{
-    text-align: center;
-    margin:0 auto;
-    padding:0;
-}
-
-
-.menu button{
-    text-align: center;
-    background-color:#5C5052;
-    color: white;
-    padding:10px 20px ;
-    border-radius: 50px;
-    margin-top:40px;
-    border:none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
-    font-size: 15px;
-    font-family: calder-dark-grit,sans-serif;
-
-}
-
 
 
 figcaption .price h3{
@@ -388,9 +324,9 @@ footer{
 
 }
 
-/* ====================Desktop=================== */
+/* ====================Tablet&Desktop=================== */
 
-@media(min-width:1024px){
+@media(min-width:764px){
     /* ====header==== */
 
     
@@ -455,36 +391,31 @@ footer{
         display: block;
     }
 
-    /* ====concept==== */
+    /* ---new flavor--- */
+.new_menu{
+    display: flex;
+    margin:30px auto;
+    justify-content: space-between;
+    background-color: #fffaf6;
+    padding:15px;
+    width: 60%;
+    
 
-    .concept-main-bigger{
-        display: block;
-        width: 68%;
-    }
+}
 
-    .concept-bigger{
-        width: 30%;
-    }
+.new_menu .new_text{
+    width: 40%;
+}
 
-    .concept-main{
-        display: none;
-    }
+.new_menu .new_image{
+    
+    width: 55%;
+}
 
-    /* ====menu==== */
-
-    .tablet_menu_list{
-        display: none;
-    }
-
-    .desktop_menu_list{
-        display: block;
-        text-align: center;
-        background-color: #fffaf6;
-    }
      /* ---figure--- */
 
      figure{
-        width: 18%;
+        width: 15%;
         margin:20px auto;
         }
     
@@ -493,55 +424,5 @@ footer{
          text-align:center;
      }
 
-     /* ====contact==== */
-
-     .contact{
-         display: none;
-     }
-
-     .contact_desktop{
-         display: flex;
-         margin:0 auto;
-         justify-content: space-between;
-     }
-
-     .contact_desktop p{
-        margin:10px 0 20px;
-        text-align: center;
-        color: #5C5052;
-    }
-    .contact_desktop ul{
-        list-style: none;
-    }
-
-    .contact_desktop fieldset{
-        padding:0;
-    }
-
-    .form_desktop{
-        width: 60%;
-    }
-
-    .text_desktop{
-        width: 40%;
-    }
-
-    .form_desktop ul li .submit{
-        width: 50%;
-        text-align: center;
-        background-color:#5C5052;
-        color: white;
-        padding:10px 20px ;
-        border-radius: 50px;
-        margin-top:10px;
-        border:none;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
-        font-size: 14px;
-        font-family: calder-dark-grit,sans-serif;
-    }
-    
-    .form_desktop .submit-btn{
-        text-align: center;
-    }
-
+     
 }

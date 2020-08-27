@@ -183,6 +183,8 @@ main h3{
 figure{
     display: flex;
     margin:20px auto;
+    border-top: 1px dashed #b0a6a8;
+    padding:30px 0;
 }
 
 figure img{
@@ -404,68 +406,19 @@ footer{
         text-align: center;
         background-color: #fffaf6;
     }
-     /* ---figure--- */
 
-     figure{
-        width: 18%;
-        margin:20px auto;
-        }
-    
-        .desktop_menu_list h3{
-         font-size:13px;
-         text-align:center;
-     }
+    /* ===figure=== */
 
-     /* ====contact==== */
-
-     .contact{
-         display: none;
-     }
-
-     .contact_desktop{
-         display: flex;
-         margin:0 auto;
-         justify-content: space-between;
-     }
-
-     .contact_desktop p{
-        margin:10px 0 20px;
-        text-align: center;
-        color: #5C5052;
-    }
-    .contact_desktop ul{
-        list-style: none;
-    }
-
-    .contact_desktop fieldset{
-        padding:0;
-    }
-
-    .form_desktop{
-        width: 60%;
-    }
-
-    .text_desktop{
-        width: 40%;
-    }
-
-    .form_desktop ul li .submit{
-        width: 50%;
-        text-align: center;
-        background-color:#5C5052;
-        color: white;
-        padding:10px 20px ;
-        border-radius: 50px;
-        margin-top:10px;
+    section{
+        display: flex;
+        flex-wrap: wrap;
         border:none;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
-        font-size: 14px;
-        font-family: calder-dark-grit,sans-serif;
     }
-    
-    .form_desktop .submit-btn{
-        text-align: center;
+
+    figure{
+        width: 30%;
+        height: 30%;
+        
     }
 
 }
-
