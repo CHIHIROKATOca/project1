@@ -318,6 +318,23 @@ footer{
 
 @media(min-width:768px){
 
+    header{
+        padding:10px;
+    }
+
+    header .logo_subpage{
+        width: 18%;
+    }
+
+    .header-image-tablet{
+        display: block;
+    }
+    
+    .header-image{
+        display: none;
+    }
+
+    
     section{
         display: flex;
         flex-wrap: wrap;
