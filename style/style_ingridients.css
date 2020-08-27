@@ -313,6 +313,34 @@ footer{
 
 }
 
+
+/* ====================Tablet=================== */
+
+@media(min-width:760px){
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    figure{
+        display: block;
+        width: 30%;
+    }
+
+    figure img{
+        width: 100%;
+        height: auto;
+    }
+
+    .ingridients_text{
+        text-align: center;
+        width: 100%;
+        margin-top:10px
+    }
+
+}
+
 /* ====================Desktop=================== */
 
 @media(min-width:1024px){
@@ -369,44 +397,6 @@ footer{
         margin:0 auto;
     }
 
-
-    
-
-    .header-image-tablet{
-        display: none;
-    }
-
-    .header-image-desktop{
-        display: block;
-    }
-
-    /* ====concept==== */
-
-    .concept-main-bigger{
-        display: block;
-        width: 68%;
-    }
-
-    .concept-bigger{
-        width: 30%;
-    }
-
-    .concept-main{
-        display: none;
-    }
-
-    /* ====menu==== */
-
-    .tablet_menu_list{
-        display: none;
-    }
-
-    .desktop_menu_list{
-        display: block;
-        text-align: center;
-        background-color: #fffaf6;
-    }
-
     /* ===figure=== */
 
     section{
@@ -416,9 +406,7 @@ footer{
     }
 
     figure{
-        width: 30%;
-        height: 30%;
-        
+        width: 15%;
     }
 
 }
