@@ -4,5 +4,5 @@ window.onload = function(){
         var loading = document.getElementById("showloading");
         loading.style.display = "none";
         contents.style.display = "block";
-    },2000);
+    },3000);
 };
