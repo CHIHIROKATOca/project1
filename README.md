@@ -5,8 +5,8 @@
 This is a responsible web page using html,css,js.
 
 ## Description
-I created this website with the image of a donuts shop in Vancouver.
-*This shop does not exist.
+I created this website with the image of a donuts shop in Vancouver.</br>
+*This shop does not exist.</br>
 *Names, products, addresses, etc. are all fictitious.
 
 ## wireframe
