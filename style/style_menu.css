@@ -396,9 +396,7 @@ footer{
     justify-content: space-between;
     background-color: #fffaf6;
     padding:15px;
-    width: 60%;
-    
-
+    width: 50%;
 }
 
 .new_menu .new_text{
@@ -406,9 +404,11 @@ footer{
 }
 
 .new_menu .new_image{
-    
-    width: 55%;
+    height: 55%;
+    width: auto;
+    margin-right:30px;
 }
+
 
      /* ---figure--- */
 
